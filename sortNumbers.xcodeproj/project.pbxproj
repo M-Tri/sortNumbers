@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		677F01AF2C76F17B00366811 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01AE2C76F17B00366811 /* main.cpp */; };
+		677F01C92C76F1BA00366811 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01BF2C76F1BA00366811 /* BubbleSort.cpp */; };
+		677F01CA2C76F1BA00366811 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C02C76F1BA00366811 /* HeapSort.cpp */; };
+		677F01CB2C76F1BA00366811 /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C12C76F1BA00366811 /* InsertionSort.cpp */; };
+		677F01CC2C76F1BA00366811 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C22C76F1BA00366811 /* main.cpp */; };
+		677F01CD2C76F1BA00366811 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C32C76F1BA00366811 /* MergeSort.cpp */; };
+		677F01CE2C76F1BA00366811 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C42C76F1BA00366811 /* QuickSort.cpp */; };
+		677F01CF2C76F1BA00366811 /* RadixSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C52C76F1BA00366811 /* RadixSort.cpp */; };
+		677F01D02C76F1BA00366811 /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C62C76F1BA00366811 /* SelectionSort.cpp */; };
+		677F01D12C76F1BA00366811 /* Sorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C72C76F1BA00366811 /* Sorter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +32,24 @@
 
 /* Begin PBXFileReference section */
 		677F01AB2C76F17B00366811 /* sortNumbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sortNumbers; sourceTree = BUILT_PRODUCTS_DIR; };
-		677F01AE2C76F17B00366811 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		677F01B52C76F1B000366811 /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		677F01B62C76F1B000366811 /* HeapSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
+		677F01B72C76F1B000366811 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		677F01B82C76F1B000366811 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		677F01B92C76F1B000366811 /* PickSortingMethodInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickSortingMethodInterface.h; sourceTree = "<group>"; };
+		677F01BA2C76F1B000366811 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		677F01BB2C76F1B000366811 /* RadixSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadixSort.h; sourceTree = "<group>"; };
+		677F01BC2C76F1B000366811 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		677F01BD2C76F1B000366811 /* Sorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
+		677F01BF2C76F1BA00366811 /* BubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
+		677F01C02C76F1BA00366811 /* HeapSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
+		677F01C12C76F1BA00366811 /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
+		677F01C22C76F1BA00366811 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		677F01C32C76F1BA00366811 /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		677F01C42C76F1BA00366811 /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		677F01C52C76F1BA00366811 /* RadixSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RadixSort.cpp; sourceTree = "<group>"; };
+		677F01C62C76F1BA00366811 /* SelectionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
+		677F01C72C76F1BA00366811 /* Sorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sorter.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +82,42 @@
 		677F01AD2C76F17B00366811 /* sortNumbers */ = {
 			isa = PBXGroup;
 			children = (
-				677F01AE2C76F17B00366811 /* main.cpp */,
+				677F01C82C76F1BA00366811 /* src */,
+				677F01BE2C76F1B000366811 /* include */,
 			);
 			path = sortNumbers;
+			sourceTree = "<group>";
+		};
+		677F01BE2C76F1B000366811 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				677F01B52C76F1B000366811 /* BubbleSort.h */,
+				677F01B62C76F1B000366811 /* HeapSort.h */,
+				677F01B72C76F1B000366811 /* InsertionSort.h */,
+				677F01B82C76F1B000366811 /* MergeSort.h */,
+				677F01B92C76F1B000366811 /* PickSortingMethodInterface.h */,
+				677F01BA2C76F1B000366811 /* QuickSort.h */,
+				677F01BB2C76F1B000366811 /* RadixSort.h */,
+				677F01BC2C76F1B000366811 /* SelectionSort.h */,
+				677F01BD2C76F1B000366811 /* Sorter.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		677F01C82C76F1BA00366811 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				677F01BF2C76F1BA00366811 /* BubbleSort.cpp */,
+				677F01C02C76F1BA00366811 /* HeapSort.cpp */,
+				677F01C12C76F1BA00366811 /* InsertionSort.cpp */,
+				677F01C22C76F1BA00366811 /* main.cpp */,
+				677F01C32C76F1BA00366811 /* MergeSort.cpp */,
+				677F01C42C76F1BA00366811 /* QuickSort.cpp */,
+				677F01C52C76F1BA00366811 /* RadixSort.cpp */,
+				677F01C62C76F1BA00366811 /* SelectionSort.cpp */,
+				677F01C72C76F1BA00366811 /* Sorter.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				677F01AF2C76F17B00366811 /* main.cpp in Sources */,
+				677F01D02C76F1BA00366811 /* SelectionSort.cpp in Sources */,
+				677F01CF2C76F1BA00366811 /* RadixSort.cpp in Sources */,
+				677F01C92C76F1BA00366811 /* BubbleSort.cpp in Sources */,
+				677F01CE2C76F1BA00366811 /* QuickSort.cpp in Sources */,
+				677F01CA2C76F1BA00366811 /* HeapSort.cpp in Sources */,
+				677F01CC2C76F1BA00366811 /* main.cpp in Sources */,
+				677F01CD2C76F1BA00366811 /* MergeSort.cpp in Sources */,
+				677F01CB2C76F1BA00366811 /* InsertionSort.cpp in Sources */,
+				677F01D12C76F1BA00366811 /* Sorter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
