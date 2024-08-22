@@ -10,6 +10,7 @@ void printVector(std::vector<int> vector){
     for(int num : vector){
         std::cout << num << " ";
     }
+    std::cout << std::endl ;
 }
 
 int main(){
