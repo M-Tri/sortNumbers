@@ -1,5 +1,3 @@
-#include <vector>
-#include <algorithm>
 #include "InsertionSort.h"
 //Based on "Introduction to Algorithms" by Cormen, Leiserson, Rivest, and Stein.
 

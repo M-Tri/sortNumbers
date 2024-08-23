@@ -1,5 +1,3 @@
-#include <vector>
-#include <algorithm>
 #include "BubbleSort.h"
 
 void BubbleSort :: sort(std::vector<int>& numbers){

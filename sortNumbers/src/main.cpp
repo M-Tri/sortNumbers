@@ -1,7 +1,4 @@
-//includes a user interface to choose method of sorting.
-//includes the main function
 #include <iostream>
-#include <algorithm>
 #include "Sorter.h"
 #include "BubbleSort.h"
 #include "HeapSort.h"
