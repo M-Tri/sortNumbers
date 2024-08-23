@@ -1,6 +1,6 @@
 #include <vector>
 #include <algorithm>
-#include<iostream>
+#include <iostream>
 #include "HeapSort.h"
 //Based on "Introduction to Algorithms" by Cormen, Leiserson, Rivest, and Stein.
 

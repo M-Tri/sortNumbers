@@ -5,6 +5,7 @@
 #include "Sorter.h"
 #include "BubbleSort.h"
 #include "HeapSort.h"
+#include "InsertionSort.h"
 
 void printNums(std::vector<int> vector);
 void compareVectors(std::vector<int>& inputVec, std::vector<int>& outputVec);
@@ -15,7 +16,7 @@ int main(){
     std::vector<int> testNumbers = inputNumbers ;
     
     //Choose method and sort.
-    Sorter sorter(new HeapSort()) ;
+    Sorter sorter(new InsertionSort()) ;
     sorter.sort(outputNumbers) ;
     
     //Test
