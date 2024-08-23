@@ -82,8 +82,8 @@
 		677F01AD2C76F17B00366811 /* sortNumbers */ = {
 			isa = PBXGroup;
 			children = (
-				677F01C82C76F1BA00366811 /* src */,
 				677F01BE2C76F1B000366811 /* include */,
+				677F01C82C76F1BA00366811 /* src */,
 			);
 			path = sortNumbers;
 			sourceTree = "<group>";
