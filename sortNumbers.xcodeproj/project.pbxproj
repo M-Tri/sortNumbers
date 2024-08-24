@@ -16,6 +16,7 @@
 		677F01CF2C76F1BA00366811 /* RadixSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C52C76F1BA00366811 /* RadixSort.cpp */; };
 		677F01D02C76F1BA00366811 /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C62C76F1BA00366811 /* SelectionSort.cpp */; };
 		677F01D12C76F1BA00366811 /* Sorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C72C76F1BA00366811 /* Sorter.cpp */; };
+		677F01F32C79A86500366811 /* Testing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01F12C79A86500366811 /* Testing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,8 @@
 		677F01C52C76F1BA00366811 /* RadixSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RadixSort.cpp; sourceTree = "<group>"; };
 		677F01C62C76F1BA00366811 /* SelectionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
 		677F01C72C76F1BA00366811 /* Sorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sorter.cpp; sourceTree = "<group>"; };
+		677F01F12C79A86500366811 /* Testing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Testing.cpp; sourceTree = "<group>"; };
+		677F01F52C79ACC800366811 /* Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				677F01BB2C76F1B000366811 /* RadixSort.h */,
 				677F01BC2C76F1B000366811 /* SelectionSort.h */,
 				677F01BD2C76F1B000366811 /* Sorter.h */,
+				677F01F52C79ACC800366811 /* Testing.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -116,6 +120,7 @@
 				677F01C52C76F1BA00366811 /* RadixSort.cpp */,
 				677F01C62C76F1BA00366811 /* SelectionSort.cpp */,
 				677F01C72C76F1BA00366811 /* Sorter.cpp */,
+				677F01F12C79A86500366811 /* Testing.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				677F01CC2C76F1BA00366811 /* main.cpp in Sources */,
 				677F01CD2C76F1BA00366811 /* MergeSort.cpp in Sources */,
 				677F01CB2C76F1BA00366811 /* InsertionSort.cpp in Sources */,
+				677F01F32C79A86500366811 /* Testing.cpp in Sources */,
 				677F01D12C76F1BA00366811 /* Sorter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

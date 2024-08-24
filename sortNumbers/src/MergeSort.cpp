@@ -1,5 +1,4 @@
 #include "MergeSort.h"
-#include <iostream>
 //Based on "Introduction to Algorithms" by Cormen, Leiserson, Rivest, and Stein.
 
 void MergeSort :: sort(std::vector<int>& numbers){
