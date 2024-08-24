@@ -7,7 +7,7 @@
 //Not Stable.
 class HeapSort : public PickSortingMethodInterface {
     public:
-        virtual void sort(std::vector<int>& numbers) override ;
+        void sort(std::vector<int>& numbers) override ;
         int parent(int childIndex);
         int left(int parentIndex);
         int right(int parentIndex);

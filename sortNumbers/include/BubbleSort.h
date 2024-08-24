@@ -7,7 +7,7 @@
 //Stable.
 class BubbleSort : public PickSortingMethodInterface {
     public:
-        virtual void sort(std::vector<int>& numbers) override ;
+        void sort(std::vector<int>& numbers) override ;
 };
 
 #endif
