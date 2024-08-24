@@ -3,22 +3,31 @@
 #include "BubbleSort.h"
 #include "HeapSort.h"
 #include "InsertionSort.h"
+#include "MergeSort.h"
 
 void printNums(std::vector<int> vector);
 void compareVectors(std::vector<int>& inputVec, std::vector<int>& outputVec);
 
 int main(){
-    std::vector<int> inputNumbers({4, 44, 2, 4, 2, 22});
+    std::vector<PickSortingMethodInterface*> sortingMehodsList({
+        new BubbleSort(),           //0
+        new HeapSort(),             //1
+        new InsertionSort(),        //2
+        new MergeSort()             //3
+    }) ;
+    
+    std::vector<int> inputNumbers({1, 3, 2, 5, 4, 7, 6, 9, 8, 11, 10, 13, 12, 15, 14});
     std::vector<int> outputNumbers = inputNumbers ;
     std::vector<int> testNumbers = inputNumbers ;
     
     //Choose method and sort.
-    Sorter sorter(new InsertionSort()) ;
+    Sorter sorter(sortingMehodsList[3]) ;
     sorter.sort(outputNumbers) ;
     
     //Test
     std::sort(testNumbers.begin(), testNumbers.end()) ;
     compareVectors(testNumbers, outputNumbers) ;
+    printNums(inputNumbers) ;
     printNums(testNumbers) ;
     printNums(outputNumbers) ;
 
