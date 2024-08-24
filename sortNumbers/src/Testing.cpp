@@ -5,7 +5,7 @@
 void testResults(std::vector<int>& input, std::vector<int>& output,
                        std::vector<int>& sortedNumbersForTesting){
     
-    //Test using c++ function sort().
+    //Test using the build in function sort().
     std::sort(sortedNumbersForTesting.begin(), sortedNumbersForTesting.end()) ;
     compareVectors(sortedNumbersForTesting, output) ;
     

@@ -13,8 +13,6 @@
 		677F01CC2C76F1BA00366811 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C22C76F1BA00366811 /* main.cpp */; };
 		677F01CD2C76F1BA00366811 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C32C76F1BA00366811 /* MergeSort.cpp */; };
 		677F01CE2C76F1BA00366811 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C42C76F1BA00366811 /* QuickSort.cpp */; };
-		677F01CF2C76F1BA00366811 /* RadixSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C52C76F1BA00366811 /* RadixSort.cpp */; };
-		677F01D02C76F1BA00366811 /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C62C76F1BA00366811 /* SelectionSort.cpp */; };
 		677F01D12C76F1BA00366811 /* Sorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01C72C76F1BA00366811 /* Sorter.cpp */; };
 		677F01F32C79A86500366811 /* Testing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677F01F12C79A86500366811 /* Testing.cpp */; };
 /* End PBXBuildFile section */
@@ -39,8 +37,6 @@
 		677F01B82C76F1B000366811 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		677F01B92C76F1B000366811 /* PickSortingMethodInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickSortingMethodInterface.h; sourceTree = "<group>"; };
 		677F01BA2C76F1B000366811 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
-		677F01BB2C76F1B000366811 /* RadixSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadixSort.h; sourceTree = "<group>"; };
-		677F01BC2C76F1B000366811 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
 		677F01BD2C76F1B000366811 /* Sorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
 		677F01BF2C76F1BA00366811 /* BubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
 		677F01C02C76F1BA00366811 /* HeapSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
@@ -48,8 +44,6 @@
 		677F01C22C76F1BA00366811 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		677F01C32C76F1BA00366811 /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
 		677F01C42C76F1BA00366811 /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
-		677F01C52C76F1BA00366811 /* RadixSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RadixSort.cpp; sourceTree = "<group>"; };
-		677F01C62C76F1BA00366811 /* SelectionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
 		677F01C72C76F1BA00366811 /* Sorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sorter.cpp; sourceTree = "<group>"; };
 		677F01F12C79A86500366811 /* Testing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Testing.cpp; sourceTree = "<group>"; };
 		677F01F52C79ACC800366811 /* Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
@@ -100,8 +94,6 @@
 				677F01B82C76F1B000366811 /* MergeSort.h */,
 				677F01B92C76F1B000366811 /* PickSortingMethodInterface.h */,
 				677F01BA2C76F1B000366811 /* QuickSort.h */,
-				677F01BB2C76F1B000366811 /* RadixSort.h */,
-				677F01BC2C76F1B000366811 /* SelectionSort.h */,
 				677F01BD2C76F1B000366811 /* Sorter.h */,
 				677F01F52C79ACC800366811 /* Testing.h */,
 			);
@@ -117,8 +109,6 @@
 				677F01C22C76F1BA00366811 /* main.cpp */,
 				677F01C32C76F1BA00366811 /* MergeSort.cpp */,
 				677F01C42C76F1BA00366811 /* QuickSort.cpp */,
-				677F01C52C76F1BA00366811 /* RadixSort.cpp */,
-				677F01C62C76F1BA00366811 /* SelectionSort.cpp */,
 				677F01C72C76F1BA00366811 /* Sorter.cpp */,
 				677F01F12C79A86500366811 /* Testing.cpp */,
 			);
@@ -182,8 +172,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				677F01D02C76F1BA00366811 /* SelectionSort.cpp in Sources */,
-				677F01CF2C76F1BA00366811 /* RadixSort.cpp in Sources */,
 				677F01C92C76F1BA00366811 /* BubbleSort.cpp in Sources */,
 				677F01CE2C76F1BA00366811 /* QuickSort.cpp in Sources */,
 				677F01CA2C76F1BA00366811 /* HeapSort.cpp in Sources */,
