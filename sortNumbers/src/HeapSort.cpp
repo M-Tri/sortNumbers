@@ -10,7 +10,7 @@ void HeapSort :: sort(std::vector<int>& numbers){
         std::swap(numbers[0], numbers[j]) ;
         //The largest is at the end. Now we can exclude it.
         heapSize-- ;
-        //The heap is already build, we just need to fix it. Move the top to its place.
+        //The heap is already build, we just need to fix it.
         maxHeapify(numbers, 0, heapSize) ;
     }
 }

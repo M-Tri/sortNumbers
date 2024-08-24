@@ -12,7 +12,7 @@ int main(){
         new HeapSort(),             //1
         new InsertionSort(),        //2
         new MergeSort(),            //3
-        //new QuickSort()             //4
+        new QuickSort()             //4
     }) ;
     
     std::vector<int> inputNumbers({1, 3, 2, 5, 4, 7, 6, 9, 8, 11, 10, 13, 12, 15, 14});
@@ -20,7 +20,7 @@ int main(){
     std::vector<int> sortedNumbersForTesting = inputNumbers ;
     
     //Choose method and sort.
-    Sorter sorter(sortingMehodsList[3]) ;
+    Sorter sorter(sortingMehodsList[4]) ;
     sorter.sort(outputNumbers) ;
     
     testResults(inputNumbers, outputNumbers, sortedNumbersForTesting) ;

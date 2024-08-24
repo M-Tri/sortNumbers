@@ -1,6 +1,5 @@
 #ifndef SORTER_H
 #define SORTER_H
-
 #include "PickSortingMethodInterface.h"
 
 class Sorter{
